@@ -35,21 +35,3 @@ def replace_item(old_item, new_item):
         print "%s is not in the list." % (old_item)
 
 
-# TEST FUNCTIONS
-# 1 - add 4 times to your shopping list
-add_shopping_list("apple")
-add_shopping_list("steak")
-add_shopping_list("beef")
-add_shopping_list("mustard")
-
-# 2 - Add an item that is already in the list. what happens?
-add_shopping_list("apple")
-
-# 3 - Remove an item on your list
-remove_item("apple")
-
-# 4 - Remove an item that is not in the list. what happens?
-remove_item("chicken")
-
-# 5 - you've changed your mind on one of your items. you want to substitute it with something else.
-replace_item("mustard", "ketchup")
